@@ -24,6 +24,8 @@
 }
 
 .shareInput {
+    margin-left: 20px;
+    margin-top: 10px;
     border: none;
     width: 80%;
 }
@@ -60,8 +62,13 @@
 }
 
 .shareOptionText {
+    border: none;
     font-size: 14px;
     font-weight: bold;
+}
+
+.shareOptionText:focus{
+    outline: none;   
 }
 
 .shareButton {

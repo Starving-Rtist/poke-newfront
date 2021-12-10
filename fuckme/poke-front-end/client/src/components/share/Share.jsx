@@ -34,7 +34,7 @@ const Share = () => {
       <div className="shareWrapper">
         <form>
           <div className="shareTop">
-            <img className="shareProfileImg" src="/assets/person/pic1.jpg" />
+            {/* <img className="shareProfileImg" src="/assets/person/pic1.jpg" /> */}
 
             <input
               onSubmit={handleSubmit}

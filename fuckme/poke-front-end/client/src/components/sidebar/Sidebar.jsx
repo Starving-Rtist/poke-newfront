@@ -20,7 +20,7 @@ export default function Sidebar() {
                         <span className="sidebarListItemText">Interests</span>
                     </li>
                 </ul>
-                <button className="sidebarButton"> Show More</button>
+                {/* <button className="sidebarButton"> Show More</button> */}
                 <hr className="sidebarHr"/>
                 <span>Advertisement:</span>
                 <img className="rightbarAd" src="/assets/ad2.png" />

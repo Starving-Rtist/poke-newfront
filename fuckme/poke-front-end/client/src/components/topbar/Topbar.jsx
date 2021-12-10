@@ -30,7 +30,7 @@ export default function Topbar({user, setUser}){
             <div className="topbarRight">
                 <div className="topbarLinks">
                     <span className="topbarLink"><Link to="/">Homepage</Link></span>
-                    <span className="topbarLink"><Link to="/me">Profile</Link></span>
+                    {/* <span className="topbarLink"><Link to="/me">Profile</Link></span> */}
                     <span className="topbarLink"><Link to="/logout" handleLogoutClick={handleLogoutClick}>Sign Out  </Link></span>
                 </div>
                 <div className="topbarIcons">

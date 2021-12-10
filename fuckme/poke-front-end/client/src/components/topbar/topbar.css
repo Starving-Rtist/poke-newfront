@@ -56,11 +56,17 @@
     color: white;
 }
 
-.topbarLink {
-    margin-right: 10px;
+.topbarLink, a:visited {
+    margin-right: 20px;
     font-size: 14px;
     cursor: pointer;
+    font-weight: bold;
+    color: white;
 }
+
+/* .topbarLinks {
+    text-decoration: none;
+} */
 
 .topbarIcons {
     display: flex;
