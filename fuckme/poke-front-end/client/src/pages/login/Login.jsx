@@ -3,6 +3,7 @@ import { useState } from "react"
 import React, { useParams } from "react-router"
 import useFetch from "../../useFetch"
 import { useNavigate } from "react-router-dom"; 
+import { Link } from "react-router-dom"
 
 export default function Login( {onLogin}) {
     const [username, setUsername] = useState('')
@@ -48,7 +49,7 @@ export default function Login( {onLogin}) {
                         <input placeholder="Password" className="loginInput" type="password" required value={password} onChange={(e) => setPassword(e.target.value)} /> <br />
                         <button className="loginButton" type="submit">Log In</button> <br />
                         <span className="loginForgot">Forgot Password?</span> <br />
-                        <button className="loginRegisterButton">Create a New Account</button>
+                        <Link to="/signup"><button className="loginRegisterButton">Create a New Account</button></Link>
                         </form>
                     </div>
                 </div>

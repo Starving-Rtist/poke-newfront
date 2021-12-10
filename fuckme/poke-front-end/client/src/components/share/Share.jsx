@@ -12,7 +12,7 @@ const Share = () => {
   const newPost = { content, imgurl };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     console.log("fuck");
     setErrors([]);
     setIsLoading(true);
